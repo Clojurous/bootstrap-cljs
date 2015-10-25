@@ -1,6 +1,6 @@
-(defproject bootstrap-cljs "0.0.3"
+(defproject bootstrap-cljs "0.0.3-clojurous"
   :description "ClojureScript wrapper around React Bootstrap"
-  :url "https://github.com/luxbock/bootstrap-cljs"
+  :url "https://github.com/Clojurous/bootstrap-cljs"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :jar-exclusions [#"\.cljx\.swp|\.swo|\.DS_Store"]
@@ -10,7 +10,7 @@
                  [prismatic/om-tools "0.2.2"]
                  [org.clojure/clojurescript "0.0-2268"]]
   :scm {:name "git"
-        :url "https://github.com/luxbock/bootstrap-cljs"}
+        :url "https://github.com/Clojurous/bootstrap-cljs"}
   :deploy-repositories [["clojars" {:creds :gpg}]]
   :profiles
   {:dev {:dependencies [[devcards "0.1.2-SNAPSHOT"]
